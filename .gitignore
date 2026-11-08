@@ -1,0 +1,35 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials.json
+*service-account*.json
+
+# Local databases, backups, and downloaded tools
+server/data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.dump
+.npm-cache/
+.mongodb-binaries/
+tmp/
+*.log
+
+# Machine-specific files
+.codex/
+.agents/
+.idea/
+.DS_Store
+Thumbs.db

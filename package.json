@@ -1,0 +1,20 @@
+{
+  "name": "fairsplit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared trip costs with accounts, invitations and confirmed repayments",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test",
+    "test:e2e": "node --test test/browser.test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.2"
+  },
+  "license": "UNLICENSED"
+}
